@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+
+        <item name="android:editTextColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="Alert_Dialog_Style" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--item name="android:windowTitleStyle">@style/dialog_title</item-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialog_title">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
+        <!-- Gets rid of the search icon
+        <item name="searchIcon">@drawable/ic_search</item>-->
+        <!-- Gets rid of the "underline" in the text-->
+        <item name="android:editTextColor">@android:color/white</item>
+        <!-- Gets rid of the search icon when the SearchView is expanded
+        <item name="searchHintIcon">@null</item>-->
+        <!-- The hint text that appears when the user has not typed anything -->
+        <item name="queryHint">@string/search</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+
+        <item name="closeIcon">@drawable/ic_clear_white_24dp</item>
+        <item name="searchIcon">@drawable/ic_search_white_24dp</item>
+    </style>
+</resources>
